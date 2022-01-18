@@ -1,0 +1,22 @@
+body{
+    background-color:thistle;
+}
+
+h1{
+    color:rgb(34, 82, 78);
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+}
+
+p{
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+}
+
+.strengths{
+    display: inline-block;
+}
+
+.weaknesses{
+    display: inline-block;
+}
