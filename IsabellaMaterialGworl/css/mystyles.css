@@ -1,0 +1,75 @@
+body{
+    background-color:lavenderblush;
+    font-family: 'EB Garamond', serif;
+    text-align: center;
+    /* padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 150px; */
+    margin: 0;
+}
+
+h1{
+    color:rgb(5, 102, 102);
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+
+}
+
+p{
+    color: rgb(49, 15, 71);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.5;
+}
+
+.picture{
+    text-align: center;
+}
+
+.isabela-img{
+    padding: 20px;
+}
+
+.isabela-img:hover{
+    transform: scale(1.1);
+}
+
+hr{
+    border-style: none;
+    border-top-style: dotted;
+    border-color:rgb(5, 99, 102);
+    border-width:8px;
+    width: 5%;
+    margin: 50px auto;
+}
+
+.sympathy{
+    display: block;
+}
+
+#tag-line:hover{
+    font-size: 17px;
+}
+
+.bottom-container{
+    background-color: rgb(161, 219, 219);
+    padding-top: 20px;
+    padding-bottom: 70px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.footer-link{
+    color: rgb(88, 42, 114);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.copyright{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
