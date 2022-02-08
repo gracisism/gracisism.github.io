@@ -52,10 +52,7 @@ hr{
 
 .bottom-container{
     background-color: rgb(161, 219, 219);
-    padding-top: 20px;
-    padding-bottom: 70px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 10px;
 }
 
 .footer-link{
@@ -69,7 +66,15 @@ hr{
 
 .copyright{
     padding-top: 20px;
-    padding-bottom: 20px;
     padding-left: 0;
     padding-right: 0;
+}
+
+.top-container{
+    background-color: rgb(161, 219, 219);
+    padding: 10px;
+}
+
+.main-body{
+    padding: 15px;
 }
