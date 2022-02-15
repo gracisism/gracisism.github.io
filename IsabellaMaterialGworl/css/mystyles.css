@@ -1,5 +1,5 @@
 body{
-    background-color:lavenderblush;
+    background-color:rgb(255, 250, 212);
     font-family: 'EB Garamond', serif;
     text-align: center;
     /* padding-top: 10px;
@@ -11,12 +11,11 @@ body{
 h1{
     color:rgb(5, 102, 102);
     font-family: 'Bebas Neue', cursive;
-    text-align: center;
 
 }
 
 p{
-    color: rgb(49, 15, 71);
+    color: rgb(90, 55, 114);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 1.5;
 }
@@ -51,7 +50,7 @@ hr{
 }
 
 .bottom-container{
-    background-color: rgb(161, 219, 219);
+    background-color: rgb(161, 188, 219);
     padding: 10px;
 }
 
@@ -76,5 +75,20 @@ hr{
 }
 
 .main-body{
-    padding: 15px;
+    padding: 50px;
+    margin: 50px;
+    background-color: rgb(255, 210, 210);
+}
+
+
+.leopard1{
+    text-align: left;
+}
+
+.leopard2{
+    text-align: right;
+}
+
+.heading{
+    text-align: center;
 }
