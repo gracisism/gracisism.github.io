@@ -1,3 +1,9 @@
+@keyframes example
+{
+    from{background-image: url("https://htmlcolorcodes.com/assets/images/colors/pastel-green-color-solid-background-1920x1080.png");}
+    to{background-image: url("https://pbs.twimg.com/media/FFJzRydXIAcKQv7?format=jpg&name=large");}
+}
+
 body{
     background-color:rgb(255, 250, 212);
     font-family: 'EB Garamond', serif;
@@ -9,7 +15,8 @@ body{
 }
 
 h1{
-    color:rgb(5, 102, 102);
+    color:rgb(248, 248, 236);
+    text-shadow: -2px 0 rgb(102, 133, 168), 0 2px rgb(161, 188, 219), 2px 0 rgb(161, 188, 219), 0 -2px rgb(161, 188, 219);
     font-family: 'Bebas Neue', cursive;
 
 }
@@ -35,7 +42,7 @@ p{
 hr{
     border-style: none;
     border-top-style: dotted;
-    border-color:rgb(5, 99, 102);
+    border-color:rgb(69, 95, 126);
     border-width:8px;
     width: 5%;
     margin: 50px auto;
@@ -50,12 +57,49 @@ hr{
 }
 
 .bottom-container{
-    background-color: rgb(161, 188, 219);
+    background:
+	repeating-linear-gradient(
+		45deg,
+		transparent,
+		transparent 1em,
+		moccasin 0,
+		moccasin 2em,
+		transparent 0,
+		transparent 3em,
+		powderblue 0,
+		powderblue 4em,
+		transparent 0,
+		transparent 5em,
+		lavender 0,
+		lavender 6em,
+		transparent 0,
+		transparent 7em,
+		beige 0,
+		beige 8em
+	),
+	repeating-linear-gradient(
+		-45deg,
+		transparent,
+		transparent 1em,
+		khaki 0,
+		khaki 2em,
+		transparent 0,
+		transparent 3em,
+		beige 0,
+		beige 4em,
+		transparent 0,
+		transparent 5em,
+		peachpuff 0,
+		peachpuff 6em
+	), whitesmoke;
+
+background-blend-mode: multiply;
     padding: 10px;
+    border-top: 7px solid rgb(233, 190, 207);
 }
 
 .footer-link{
-    color: rgb(88, 42, 114);
+    color: rgb(255, 255, 255);
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 10px;
@@ -70,23 +114,23 @@ hr{
 }
 
 .top-container{
-    background-color: rgb(161, 219, 219);
     padding: 10px;
+    background-image: url("https://pbs.twimg.com/media/FFJzRydXIAcKQv7?format=jpg&name=large");
+    border-bottom: 5px solid rgb(139, 183, 201);
+    animation-name: example;
+    animation-duration: 7s;
+    resize:vertical;
+    overflow:auto;
+
 }
 
 .main-body{
     padding: 50px;
     margin: 50px;
     background-color: rgb(255, 210, 210);
-}
-
-
-.leopard1{
-    text-align: left;
-}
-
-.leopard2{
-    text-align: right;
+    border: 10px inset rgb(179, 211, 230);
+    border-radius: 10px;
+    outline: 15px solid rgb(149, 182, 149);
 }
 
 .heading{
