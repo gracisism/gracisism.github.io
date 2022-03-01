@@ -27,17 +27,24 @@ p{
     line-height: 1.5;
 }
 
-.picture{
-    text-align: center;
+.card{
+    background-color:rgb(139, 183, 201);
+    margin: 0 auto; 
+        float: none; 
+     margin-bottom: 10px;
 }
 
-.isabela-img{
-    padding: 20px;
+.btn{
+    background-color: linen;
+    color: rgb(90, 55, 114);
 }
 
-.isabela-img:hover{
+/* .rounded{
+    padding: 20px; */
+/* 
+/* .rou:hover{
     transform: scale(1.1);
-}
+} */
 
 hr{
     border-style: none;
@@ -124,7 +131,7 @@ background-blend-mode: multiply;
 
 }
 
-.main-body{
+.MB{
     padding: 50px;
     margin: 50px;
     background-color: rgb(255, 210, 210);
