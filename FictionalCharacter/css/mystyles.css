@@ -1,5 +1,5 @@
 body {
-    background: #EEF5DB;
+    background: #f5fae7;
   }
   
   #load {
@@ -186,4 +186,12 @@ p{
 
 .picture{
     text-align: center;
+}
+
+.mainbody{
+    padding: 30px;
+    border: solid 10px;
+    outline: solid #7A9E9F 15px;
+    margin: 50px;
+    border-color: #B8D8D8
 }
