@@ -4,7 +4,7 @@
   }
 
 body{
-    background-color:rgb(189, 223, 214);
+    background-color:rgb(220, 234, 230);
 }
 
 .sizecarousel{
@@ -16,4 +16,14 @@ body{
 
 h1{
     text-align: center;
+}
+
+header{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: rgb(95, 126, 130);
+}
+
+.carouselcolor{
+    background-color: rgba(255, 0, 0, 0.5);
 }
